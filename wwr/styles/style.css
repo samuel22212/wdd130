@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Satisfy&display=swap');
+
 #content  {
     max-width: 1600px; 
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #10172D;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -17,6 +20,7 @@ nav a {
  .msg p  {
 
   color: #000;
+  padding-bottom: 15px;
  }
 
  .msp h2{
@@ -41,9 +45,11 @@ main section{
 }
 
 body{
-
+    font-family: Poppins, sans-serif;
     background-color: #EBAA98;
-    
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -57,9 +63,11 @@ nav a:hover {
 }
 
 .book, .join {
-
+    padding: 15px 30px;
    background-color:  black;
    color: white;
+   margin-top: 50px;
+   border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -75,9 +83,10 @@ nav a:hover {
  }
 
  footer{
-
+    padding: 25px 50px;
     background-color: #7B9E89;
     color:  orange;
+    margin-top: 200px;
  }
  footer a{
 
@@ -98,12 +107,56 @@ nav a:hover {
  .msg {
     background-color: #10172D;
     color: white;
+    line-height:1.5 em ;
+    padding: 35px;
+
  }
+ 
  .icon{
     width: 80px;
+    padding-top: 10px;
  }
 
 #hero-img{
 
     width: 100%
+}
+
+.logo{
+
+    width: 80px;
+}
+
+.home-title {
+    font-family: 'Poppins', 'Satisfy', sans-serif;
+    font-size: 2em;
+}
+
+h2{
+
+    margin: 0;
+}
+
+#logo_link{
+
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}   
+.rivers-card, .camping-card, .rapids-card {  margin: 200px 0;
+}
+
+.home-title { 
+     margin-top: 10px;
+}
+
+.card-img {
+
+    border: 10px solid #7B9E89;
+}
+
+main section img {
+    box-sizing: border-box;
 }
