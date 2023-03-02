@@ -5,6 +5,15 @@
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
 nav a {
     text-align: center;
     color: #10172D;
@@ -12,9 +21,22 @@ nav a {
     padding: 35px;
 }
 
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
 #hero-msg h1 {
 
     text-align: center;
+    color: gold;
 
 }
  .msg p  {
@@ -30,7 +52,7 @@ nav a {
 #hero-msg h4 {
 
     text-align: center;
-    color:#10172D;
+    color: gold;
 
 }
 
@@ -54,7 +76,11 @@ body{
 
 header {
     background-color: #7B9E89;
+    opacity: 50%;
     color: #000;
+
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav a:hover {
@@ -85,7 +111,7 @@ nav a:hover {
  footer{
     padding: 25px 50px;
     background-color: #7B9E89;
-    color:  orange;
+    color:  gold;
     margin-top: 200px;
  }
  footer a{
@@ -138,7 +164,9 @@ h2{
 }
 
 #logo_link{
-
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
     padding-top: 5px;
 }
 
@@ -152,6 +180,12 @@ footer .social img{
      margin-top: 10px;
 }
 
+#home-grid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+
+}
+
 .card-img {
 
     border: 10px solid #7B9E89;
@@ -159,4 +193,7 @@ footer .social img{
 
 main section img {
     box-sizing: border-box;
+}
+.card-img, .mountains {
+    width: 100%;
 }
