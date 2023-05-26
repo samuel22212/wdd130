@@ -41,7 +41,7 @@ nav a {
 }
  .msg p  {
 
-  color: #000;
+  color: white;
   padding-bottom: 15px;
  }
 
@@ -90,7 +90,7 @@ nav a:hover {
 
 .book, .join {
     padding: 15px 30px;
-   background-color:  black;
+   background-color:  #7B9E89;
    color: white;
    margin-top: 50px;
    border-radius: 5px;
@@ -98,7 +98,7 @@ nav a:hover {
 
 .book:hover, .join:hover {
 
-    background-color:  #10172D;
+    background-color:  #213472;
     color: white;
  }
  
@@ -116,7 +116,8 @@ nav a:hover {
  }
  footer a{
 
-    color:black
+    color:gold;
+    text-decoration:none;
  }
  footer p a:hover{
 
