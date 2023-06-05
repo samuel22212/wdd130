@@ -198,3 +198,5 @@ main section img {
 .card-img, .mountains {
     width: 100%;
 }
+
+.social img { width: 80px; }
