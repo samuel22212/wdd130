@@ -114,6 +114,10 @@ nav a:hover {
     background-color: #7B9E89;
     color:  gold;
     margin-top: 200px;
+    display: flex;
+    padding: 25px 50px;
+    justify-content: space-around;
+    align-items: center;
  }
  footer a{
 
@@ -169,7 +173,7 @@ h2{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
-    padding-top: 5px;
+    
 }
 
 footer .social img{
@@ -189,7 +193,8 @@ footer .social img{
 }
 
 .card-img {
-
+    width: 50%;
+    height: 50%;
     border: 10px solid #7B9E89;
 }
 
@@ -201,3 +206,4 @@ main section img {
 }
 
 .social img { width: 80px; }
+
