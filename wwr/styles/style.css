@@ -94,6 +94,7 @@ nav a:hover {
    color: white;
    margin-top: 50px;
    border-radius: 5px;
+   text-decoration: none;
 }
 
 .book:hover, .join:hover {
@@ -134,7 +135,7 @@ nav a:hover {
  .msg {
     background-color: #10172D;
     color: white;
-    line-height:1.5 em ;
+    line-height:1.5em;
     padding: 35px;
 
  }
