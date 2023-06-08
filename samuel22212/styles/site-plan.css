@@ -1,7 +1,6 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:family=Slabo+27px&display=swap');
 
 :root {
@@ -12,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #373F51;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Slabo 27px,", serif;
+  --heading-font: "Slabo 27px", serif;
   --paragraph-font: "Nunito", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
