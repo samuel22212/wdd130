@@ -106,7 +106,7 @@ nav a:hover {
  
  #background {
 
-    background-color: #10172D;
+    background-color: #213472;
     color: white;
     grid-column: 1/11;
     grid-row: 4/9;
@@ -274,6 +274,7 @@ main section img {
     }
     #background {
         display: none;
+        background-color:#213472
     }
     .mountains, .msg {
         width: 80%;
