@@ -1,6 +1,6 @@
 from pytest import approx
 import pytest
-from water_flow import water_column_height, pressure_gain_from_water_height, pressure_loss_from_pipe
+from water_flow import water_column_height, pressure_gain_from_water_height, pressure_loss_from_pipe,pressure_loss_from_fittings
 def test_water_column_height():
     water_height = water_column_height(0,0)
     assert water_height == 0
@@ -32,5 +32,15 @@ def test_pressure_loss_from_pipe():
     pressure_loss = pressure_loss_from_pipe(0.048692,200,0.018,1.75)
     assert pressure_loss == pytest.approx(-113.008, 0.001)
 
+def test_pressure_loss_from_fittings():
+    pressure_loss1 = pressure_loss_from_fittings(0,3)
+    pressure_loss2 = pressure_loss_from_fittings(1.65,0)
+    assert pressure_loss1 == 0
+    assert pressure_loss2 == 0
+    pressure_loss3 = pressure_loss_from_fittings(1.65,2)
+    assert pressure_loss3 == pytest.approx(-0.109, 0.001)
+    pressure_loss4 = pressure_loss_from_fittings(1.75, 2)
+    assert pressure_loss4 == pytest.approx(-0.122, 0.001)
 
+def t
 pytest.main(["-v", "--tb=line", "-rN", __file__])
