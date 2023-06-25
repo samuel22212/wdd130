@@ -84,6 +84,16 @@ header {
     grid-template-columns: 150px auto;
 }
 
+.faq-header {
+
+    background-color: #7B9E89;
+    opacity: 100%;
+    color: #000;
+
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
 nav a:hover {
     background-color: white;
     color: Black;
