@@ -47,7 +47,9 @@ textarea {
 }
 
 .faq{
-    padding: 5em; 
+    padding-left: 5em;
+    padding-bottom: 1em;
+    padding-top: 5em;
 }
 .cabin-img
 {
