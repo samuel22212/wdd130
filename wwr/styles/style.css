@@ -46,6 +46,16 @@ textarea {
     border: 1px solid #999;
 }
 
+.faq{
+    padding: 5em; 
+}
+.cabin-img
+{
+    padding-left: 5em;
+    padding-top: 1em;
+    width:100%;
+}
+
 input:focus,
 textarea:focus {
     /* Additional highlight for focused elements */
