@@ -17,6 +17,16 @@ def pressure_loss_from_fittings(  fluid_velocity, quantity_fittings):
     pressure_lost = ((998.2*-0.04) * (fluid_velocity **2) * quantity_fittings) /2000
     return pressure_lost
     
+def reynolds_number(hydraulic_diameter, fluid_velocity):
+    
+        reynolds = ((998.2*hydraulic_diameter*fluid_velocity)/0.0010016)
+        return reynolds    
+
+def pressure_loss_from_pipe_reduction(larger_diameter, fluid_velocity, reynolds_number, smaller_diameter): 
+      constant = ((((larger_diameter/smaller_diameter))**4)-1) * (0.1+(50/reynolds_number))
+      pressure_loss =(constant*-1)*998.2*(fluid_velocity**2)/2000
+      return pressure_loss 
+        
 
 PVC_SCHED80_INNER_DIAMETER = 0.28687 # (meters)  11.294 inches
 PVC_SCHED80_FRICTION_FACTOR = 0.013  # (unitless)
