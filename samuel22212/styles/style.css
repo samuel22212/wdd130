@@ -115,6 +115,22 @@ main p {
     grid-column: 2/6;
 
 }
+.email-button{
+    grid-column: 8/11;
+    grid-row: 3/6;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    width: 85%;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    
+    font-size: 18px;
+  }
 
 footer {
     padding: 25px 50px;
