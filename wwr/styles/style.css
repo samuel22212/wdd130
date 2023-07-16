@@ -188,7 +188,7 @@ header {
     background-color: #7B9E89;
     opacity: 50%;
     color: #000;
-
+    
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -298,7 +298,7 @@ footer p {
 }
 
 h2 {
-
+    text-align: center;
     margin: 0;
 }
 
