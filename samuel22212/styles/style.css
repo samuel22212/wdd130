@@ -21,6 +21,9 @@ body {
     font-size: 22px;
 
 }
+#book-heading{
+    grid-column: 3/9;
+}
 .listy{
 
     grid-column: 2/5;
@@ -51,7 +54,18 @@ header p {
     width:100%
     
 }
+.upcoming-text{
+    grid-row-start: 2;
+    grid-column: 4/9;
+}
+.book-img{
 
+    grid-row-start: 2;
+    grid-column-start: 2;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
 .logo {
     height: 100%;
 }
